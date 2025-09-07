@@ -14,6 +14,7 @@ button {
   margin-top: 5px;
 }
 
+/* FAQ */
 .faq-answer {
   display: none;
   margin: 5px 0 15px 0;
@@ -23,6 +24,7 @@ button {
   display: block;
 }
 
+/* Error and Success Messages */
 .error-message {
   color: red;
   font-size: 0.9em;
@@ -33,4 +35,62 @@ button {
   color: green;
   font-weight: bold;
   margin-top: 10px;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 10px;
+}
+
+.tab-btn {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  margin-right: 2px;
+}
+
+.tab-btn.active {
+  background-color: #ccc;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.tab-content.active {
+  display: block;
 }
