@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 5px;
+}
+
+.faq-answer {
+  display: none;
+  margin: 5px 0 15px 0;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
